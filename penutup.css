@@ -1,0 +1,110 @@
+body{
+background-color: #faddf8;
+    background-image: url(Kesimpulan.png);
+}
+.header{
+    width: 1280px;
+    position: fixed;
+}
+/*kode css nav*/
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    align-items: center;
+    padding: 0px;
+    background-color: #e8dbff;
+    overflow: hidden;
+    width: 1280px;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: rgb(41, 41, 28);
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(126, 89, 176);
+    color: rgb(126, 89, 176);
+}
+.dropbtn{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropbtn:hover, .dropdown:hover{
+    background-color: rgb(126, 89, 176);
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(170, 124, 230);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px pink;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover a{
+    color: aliceblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    display: block;
+    text-align: left;
+}
+
+.dropdown::content{
+    color: rgb(221, 190, 224);
+}
+
+p{
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 60px;
+}
+h1{
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 60px;
+    text-decoration: rgb(255, 203, 240);
+}
+h1.H1{
+    margin-top: 80px;
+    margin-right: 200px;
+    margin-left: 60px;
+    text-decoration: rgb(173, 248, 255);
+}
+h3{
+    margin-right: 200px;
+    margin-left: 50px; 
+}
+p.Saran{
+    margin-right: 200px;
+    margin-left: 70px;
+}
+.Footer{
+margin-top: 100px;
+}
